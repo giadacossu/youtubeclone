@@ -1,0 +1,135 @@
+
+
+      body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .main {
+        width: 100%;
+      }
+
+      .topbar {
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .content {
+        height: 100%;
+ 
+        display: flex;
+
+   
+    
+    
+      }
+
+      .icon {
+        height: 8vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+        cursor: pointer;
+      }
+
+      .icon ion-icon {
+        font-size: 2em;
+      }
+
+      .icon p {
+        margin: 0;
+      }
+
+      .icon:not(:first-of-type) {
+        height: 16vh;
+      }
+
+      .logo {
+       width: 30%;
+      }
+
+      .search-wrapper {
+        display: flex;
+        height: 50%;
+        width: 30%;
+      }
+
+      .search-wrapper input {
+        width: 100%;
+        padding: 0 1em;
+      }
+
+      .icons-wrapper {
+        display: flex;
+        align-items: center;
+      }
+
+      .top-icon {
+        font-size: 2em;
+        padding: 0 0.5em;
+      }
+
+      .mic-icon {
+        display: flex;
+        align-items: center;
+      }
+
+      .search-btn {
+        padding: 0 0.7em;
+        font-size: 1.3em;
+        display: flex;
+        align-items: center;
+      }
+      img {
+      width: 380px;
+      padding: 0.2em;
+    }
+        
+        .logo{
+        width: 10%;
+        display: flex;
+        padding: 0.8em;
+      }
+      .items{
+        display: flex;
+        flex-wrap: wrap;
+        width: 130%;
+       justify-content: center;
+        justify-content: space-around;
+        margin: 2em;
+      }
+      .items1{
+     
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-size: 1em;
+  margin: 0;
+
+
+}
+
+p{
+  margin: 0;
+
+
+}
+.title{
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8em;
+}
+
